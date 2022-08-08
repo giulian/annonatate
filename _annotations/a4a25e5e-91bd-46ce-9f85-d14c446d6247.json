@@ -1,0 +1,31 @@
+---
+canvas: "https://bsriiif.emmebisoft.it/iiif/3/prova.jpg/info.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "scala",
+            "purpose": "commenting",
+            "creator": {
+                "id": "giulian",
+                "name": "giulian"
+            },
+            "created": "2022-08-08T13:09:51.733Z",
+            "modified": "2022-08-08T13:09:53.388Z"
+        }
+    ],
+    "target": {
+        "source": "https://bsriiif.emmebisoft.it/iiif/3/prova.jpg/info.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=113.57978057861328,372.18463134765625,195.6562728881836,217.563720703125"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a4a25e5e-91bd-46ce-9f85-d14c446d6247.json",
+    "motivation": "commenting"
+}
